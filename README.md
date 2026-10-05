@@ -1,14 +1,21 @@
+![Cloudy Sky 3D Banner](images/Banner.jpg)
+
 # Cloudy Sky 3D - Godot Sky Shader
 
 A lightweight, high-performance, and professional-grade procedural 3D sky shader designed specifically for **Godot 4**. Perfect for low-end hardware (optimized for 2GB–4GB RAM systems) without sacrificing visual quality!
 
-## 📸 Preview
+---
 
-### Day Sky (Dynamic FBM Clouds & Gradient)
-![Day Sky](images/day.png)
+## 📸 Visual Previews
 
-### Night Sky (Voronoi Stars & Twinkle Effect)
+### ☀️ Day Sky (Dynamic FBM Clouds & Gradient)
+![Day Sky](images/day.jpg)
+
+### 🌙 Night Sky (Voronoi Stars & Twinkle Effect)
 ![Star Sky](images/Star.png)
+
+### ⚙️ Godot Editor Integration
+![Godot Editor Setup](images/Godot.png)
 
 ---
 
