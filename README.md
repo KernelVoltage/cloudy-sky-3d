@@ -9,7 +9,7 @@ A lightweight, high-performance, and professional-grade procedural 3D sky shader
 ## 📸 Visual Previews
 
 ### ☀️ Day Sky (Dynamic FBM Clouds & Gradient)
-![Day Sky](images/day.jpg)
+![Day Sky](images/day.png)
 
 ### 🌙 Night Sky (Voronoi Stars & Twinkle Effect)
 ![Star Sky](images/Star.png)
