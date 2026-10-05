@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://c3n6qdrq1gbfb"]
+
+[ext_resource type="Shader" path="res://addons/cloudy_sky_3d/scenes/cloud_sky.gdshader" id="1_wyf4n"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nvcvj"]
+shader = ExtResource("1_wyf4n")
+shader_parameter/top_color = Color(0.15, 0.4, 0.75, 1)
+shader_parameter/bottom_color = Color(0.55, 0.7, 0.85, 1)
+shader_parameter/cloud_color = Color(1, 1, 1, 1)
+shader_parameter/cloud_speed = 1.883
+shader_parameter/cloud_coverage = 0.7
+shader_parameter/cloud_scale = 2.5
+shader_parameter/cloud_brightness = 1.0
+shader_parameter/cloud_sharpness = 0.3
+shader_parameter/horizon_glow = 0.5
+shader_parameter/enable_stars = false
+shader_parameter/stars_intensity = 1.0
+shader_parameter/star_color = Color(1, 1, 1, 1)
+shader_parameter/twinkle_speed = 2.0
+
+[sub_resource type="Sky" id="Sky_vl6oc"]
+sky_material = SubResource("ShaderMaterial_nvcvj")
+
+[sub_resource type="Environment" id="Environment_m5xdi"]
+background_mode = 2
+sky = SubResource("Sky_vl6oc")
+
+[node name="Main" type="WorldEnvironment"]
+environment = SubResource("Environment_m5xdi")
